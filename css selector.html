@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>css selectors</title>
+    <style>
+           div p{
+            color:green;
+           }
+           .box >{
+            background-color :blue;
+        
+           a:hover{
+            color:brown;
+           }
+           a:visited{
+            color:aqua;
+           } */
+           a:link{
+            text-decoration: none; font-size: larger;
+           }
+           ul{
+            list-style: none; display:flex;
+           }
+           ul li{
+            margin: 20px ; border-right: 1px solid coral;
+            padding-right: 20px;
+           }
+           ul li:hover{
+            color:blue;
+           }
+        .para{
+            color:blueviolet;
+        }
+        .para::first-letter{
+            color:blue; font-size: large;
+        }
+        .para::first-line{
+            background-color: aqua;
+        }
+        .para::after{
+            content:"read more";
+            color:beige;
+            font-size: 20px;
+        }
+        .para::before{
+            content:"read more";
+            color:rgb(150, 150, 10);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+	<div class box>
+        <p>
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni aperiam, adipisci labore repudiandae qui mollitia hic consectetur placeat, consequatur odit explicabo perferendis quas quaerat dignissimos maiores provident exercitationem doloribus reprehenderit.
+        </p>
+    </div>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quaerat et neque eum dolorem quae odio perspiciatis libero possimus, excepturi deleniti eius doloremque debitis maiores perferendis quis pariatur reprehenderit ab!
+        </p>
+    </div>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta assumenda a consequatur est doloribus ratione, dignissimos provident, mollitia error nostrum nam deserunt aperiam culpa quia praesentium nulla odit distinctio molestiae?
+    </p>
+    <a href="">visit this link</a>
+    <ul>
+        <li>
+            home
+        </li>
+        <li>fallery</li>
+        <li>kon</li>
+    </ul>
+    <p class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestias dolore harum reprehenderit adipisci sapiente nulla. Error eligendi eius fugiat ex, magnam fugit id veritatis atque et ab nam labore.</p>
+</body>
+</html>
