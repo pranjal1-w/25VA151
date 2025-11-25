@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Page Layout</title>
+    <style>
+        .box {
+            border: 3px solid black;
+            padding: 15px;
+            margin: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #header { background: #4da3ff; }
+        #nav-global { background: #2d90ff; }
+        #page-title { background: #ff9aa2; }
+
+        #content1, #content2, #content3 { background: #f7c79f; }
+        #nav-local, #sidebar { background: #fff9b8; }
+        #footer { background: #e6e6e6; }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex:2;
+        }
+
+        .side {
+            width: 250px;
+        }
+
+        .content-box {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header" class="box">#Header</div>
+
+    <div id="nav-global" class="box">#Nav Global</div>
+
+    <div class="row">
+        <div id="page-title" class="box column">#Page Title</div>
+        <div id="nav-local" class="box side">#Nav Local</div>
+    </div>
+
+    <div class="row">
+        <div id="content1" class="box column">#Content 1</div>
+        <div class="box side">#Nav Local</div>
+    </div>
+
+    <div class="row">
+        <div id="content2" class="box content-box">#Content 2</div>
+        <div id="content3" class="box content-box">#Content 3</div>
+        <div id="sidebar" class="box side">#Sidebar</div>
+    </div>
+
+    <div id="footer" class="box">#Footer</div>
+
+</body>
+</html>
