@@ -5,83 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-     
-body {
-    font-family: Arial, Helvetica, sans-serif; 
-    background-color: #f4f4f4; 
-    text-align: center; 
-    margin: 0; 
-    padding: 30px;
-}
+        .box{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 600px;
+           
+            padding:1px;
+            margin: auto;
+            /* border: 2px solid black; */
+            box-shadow: 2px 6px 8px 9px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
 
+        }
+        .h1{
+            text-decoration: double;
+           font-family: Arial, Helvetica, sans-serif;
+           font-display: auto;
+           text-shadow: 5px;
+           text-align: center;
+           color: aqua;
 
-.product-card {
-    width: 350px; 
-    background: white;
-    padding: 20px; 
-    margin: 0 auto; 
-    border: 2px solid #ddd; 
-    border-radius: 10px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); 
+        }
+        .h2{
+            color:chocolate ;
+        }
+        .p {
+            color: crimson;
+            display: flex;
+            flex-direction: column;
+            border-radius: 3px;
+            padding: 5px 9px;
+            justify-content: center;
+            background:whitesmoke;
 
+        }
+        .product-img {
+            width: 100px;
+            border-radius: 60px;
+            margin-top: 50px;
+            background: wheat;
+        }
+        .but {
+            background-color: rgb(221, 217, 7);
+            width: auto;
+            margin-top: 10px;
+            padding: 15px 35px;
+            border-radius: 60px;
+            display: flex;
+            flex-direction: column;
+            
 
-.product-img {
-    width: 300px; 
-    height: 300px; 
-    border-radius: 10px;
-}
-
-
-.product-title {
-    font-size: 24px; 
-    color: #333; 
-    margin: 10px 0; 
-}
-
-.product-desc {
-    font-size: 16px;
-    color: #555;
-    margin: 10px;
-}
-
-.product-price {
-    font-size: 20px;
-    color: green;
-    font-weight: bold;
-    margin: 15px 0;
-}
-
-
-.btn-buy {
-    background-color: #007bff; 
-    color: white;
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn-buy:hover {
-    background-color: #0056b3; 
-}
+        }
+        .pran {
+            margin: 40px;
+            display: flex;
+            gap: 30px;
+        }
+        
     </style>
 </head>
 <body>
-    <div class="product-card">
-        <img src="https://imgs.search.brave.com/mwZvbUU4A_mUWJo621HDfEMA9NqqC1j5uKYY9ok7OuM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/ODkyODc0MjgwOTYt/N2UxZGNjNzA1YTVj/P2l4bGliPXJiLTQu/MS4wJml4aWQ9TTN3/eE1qQTNmREI4TUh4/elpXRnlZMmg4TVRo/OGZIZHlhWE4wZDJG/MFkyaDhaVzU4TUh4/OE1IeDhmREE9JmZt/PWpwZyZxPTYwJnc9/MzAwMA"alt="Product Image" class="product-img">
-
-        <h2 class="product-title">Smart Watch</h2>
-        <p class="product-desc">High quality smart watch with heart monitoring, GPS and other features.</p>
-        <p class="product-price">₹4,999</p>
-
-        <button class="btn-buy">Buy Now</button>
+    <div class="pran">
+    <div class="box">
+     <h1 class="h1">
+       STUDENT PROFILE CARD
+       <img src="https://imgs.search.brave.com/F3karlMJdEYd7CU126jU8QcLd-FCKmxpY5CmMKrAhEQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NDcyLzA2Mi9zbWFs/bC9hLW1hbi13aXRo/LWEtYmxhY2staGFp/ci1hbmQtYmx1ZS1l/eWVzLXZlY3Rvci5q/cGc"alt="Product Image" class="product-img">
+     </h1>
+     <h2 class="h2">
+        PRANJAL GUPTA
+     </h2>
+     <p class="p">AGE:  20</p>
+     <p class="p">CLASS:  BTECH CSE 23</p>
+     <p class="p">COLLEGE ID:  2025B01010573</p>
+     <button class="but">VIEW MORE</button>
     </div>
-    <nav>
-        <ul>
-            <li> <a href="">abes</a> </li>
-            <li><a href="">prajval bkl mdc rndi</a></li>
-        </ul>
-    </nav>
+    
+
+
+    <div class="box">
+     <h1 class="h1">
+       STUDENT PROFILE CARD
+       <img src="https://imgs.search.brave.com/F3karlMJdEYd7CU126jU8QcLd-FCKmxpY5CmMKrAhEQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NDcyLzA2Mi9zbWFs/bC9hLW1hbi13aXRo/LWEtYmxhY2staGFp/ci1hbmQtYmx1ZS1l/eWVzLXZlY3Rvci5q/cGc"alt="Product Image" class="product-img">
+     </h1>
+     <h2 class="h2">
+        AYUSH PATHAK
+     </h2>
+     <p class="p">AGE:  22</p>
+     <p class="p">CLASS:  BTECH CSE 23</p>
+     <p class="p">COLLEGE ID:  2025B01010578</p>
+     <button class="but">VIEW MORE</button>
+    </div>
+
+    <div class="box">
+     <h1 class="h1">
+       STUDENT PROFILE CARD
+       <img src="https://imgs.search.brave.com/F3karlMJdEYd7CU126jU8QcLd-FCKmxpY5CmMKrAhEQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NDcyLzA2Mi9zbWFs/bC9hLW1hbi13aXRo/LWEtYmxhY2staGFp/ci1hbmQtYmx1ZS1l/eWVzLXZlY3Rvci5q/cGc"alt="Product Image" class="product-img">
+
+     </h1>
+     <h2 class="h2">
+        SACHIN GUPTA
+     </h2>
+     <p class="p">AGE:  18</p>
+     <p class="p">CLASS:  BTECH CSE 23</p>
+     <p class="p">COLLEGE ID:  2025B01010579</p>
+     <button class="but">VIEW MORE</button>
+    </div>
+    </div>
 </body>
 </html>
+
 
